@@ -1,0 +1,35 @@
+body {
+    font-family: $baseFontFamily;
+    font-size: $baseFontSize;
+    line-height: $baseLineHeight;
+    color: $lightGray;
+    background-color: $white;
+}
+
+h1 { 
+    font-family: $headingsFontFamily;
+    font-size: $h1FontSize;
+    font-weight: $h1FontWeight;
+    color: $white;
+    background-color: $black;
+}
+
+h2 { 
+    font-family: $headingsFontFamily;
+    font-size: $h2FontSize;
+    font-weight: $h2FontWeight;
+    color: $darkGray;
+}
+
+h3 { 
+    font-family: $headingsFontFamily;
+    font-size: $h3FontSize;
+    color: $gray;
+}
+a {
+    color: inherit;
+	&:hover,
+	&:focus {
+      text-decoration: none ; // remove underline
+	}
+}

@@ -1,0 +1,28 @@
+.header {
+	background-color: $black;
+}
+
+.footer-top {
+	background-color: $darkGray;
+	color: $white;
+	
+	h2 {
+		color: $turquoise;
+	}
+}
+
+.footer-bottom {
+	background-color: $black;
+}
+
+.message {
+	background: $turquoise;
+	h2 {
+		color: $white;
+	}
+}
+
+.lead {
+	color: $turquoise;
+	text-transform: capitalize;
+}
