@@ -75,3 +75,187 @@ a:hover, a:focus {
   color: #84ccd3;
   text-transform: capitalize;
 }
+
+/* line 30, ../SCSS/_patterns.scss */
+.contentbox {
+  background-color: transparent;
+  color: gray;
+  position: relative;
+}
+/* line 33, ../SCSS/_patterns.scss */
+.contentbox h2 {
+  margin-bottom: measure;
+}
+/* line 36, ../SCSS/_patterns.scss */
+.contentbox p {
+  margin-bottom: measure;
+}
+/* line 39, ../SCSS/_patterns.scss */
+.contentbox a, .contentbox .fa {
+  color: #84ccd3;
+}
+
+/* line 44, ../SCSS/_patterns.scss */
+.contentbox-var1 {
+  border-bottom: 5px solid #cfebee;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* line 50, ../SCSS/_patterns.scss */
+.vertical-middle {
+  position: absolute;
+  left: 50%;
+  top: .5em;
+}
+
+@media (max-width: 768px) {
+  /* line 57, ../SCSS/_patterns.scss */
+  .vertical-middle {
+    position: static;
+  }
+}
+/* line 62, ../SCSS/_patterns.scss */
+.message {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  padding-bottom: measure;
+  padding-bottom: measure;
+}
+
+/* line 68, ../SCSS/_patterns.scss */
+.image-break {
+  background: white url(../images/paper-texture.jpg) repeat-x;
+  height: measure;
+}
+
+/* line 73, ../SCSS/_patterns.scss */
+.titlebox {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  padding: 10px;
+}
+/* line 76, ../SCSS/_patterns.scss */
+.titlebox em {
+  color: black;
+}
+
+/* line 82, ../SCSS/_patterns.scss */
+.titlebox:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 44%;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #84ccd3 transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
+
+/* line 95, ../SCSS/_patterns.scss */
+.clients {
+  padding-top: 59px;
+  padding-bottom: 135px;
+}
+
+/* line 100, ../SCSS/_patterns.scss */
+.breadcrumb {
+  margin-top: 60px;
+  margin-bottom: 36px;
+}
+
+/* line 106, ../SCSS/_patterns.scss */
+.pricing-table {
+  border: 1px solid #666666;
+  border-bottom: 7px solid #666666;
+  margin-bottom: -10px;
+  margin-bottom: 40px;
+}
+/* line 112, ../SCSS/_patterns.scss */
+.pricing-table li {
+  color: black;
+  padding: 20px;
+  border-bottom: 1px dotted #666666;
+  font-weight: bold;
+}
+/* line 119, ../SCSS/_patterns.scss */
+.pricing-table .price {
+  font-size: 26px;
+  border-bottom: 1px dotted #666666;
+  margin-top: 0;
+}
+/* line 125, ../SCSS/_patterns.scss */
+.pricing-table .info {
+  font-weight: normal;
+  font-size: 13px;
+  color: gray;
+}
+
+/* line 132, ../SCSS/_patterns.scss */
+.btn-price {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  border-bottom: 5px solid #3fa7b2;
+}
+
+/* line 137, ../SCSS/_patterns.scss */
+.article-date {
+  background-color: black;
+  color: #84ccd3;
+  position: relative;
+  padding: 10px;
+}
+/* line 141, ../SCSS/_patterns.scss */
+.article-date h2 {
+  font-size: 19px;
+  margin: 0;
+}
+/* line 146, ../SCSS/_patterns.scss */
+.article-date h3 {
+  color: white;
+  margin: 0;
+}
+
+/* line 153, ../SCSS/_patterns.scss */
+.sidebar-links li {
+  padding: 5px 0 5px 0;
+}
+/* line 156, ../SCSS/_patterns.scss */
+.sidebar-links a {
+  color: #84ccd3;
+  text-decoration: none;
+}
+
+/* line 163, ../SCSS/_patterns.scss */
+.form-control {
+  background-color: #666666;
+  margin-bottom: 10px;
+}
+
+/* line 169, ../SCSS/_patterns.scss */
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+/* line 172, ../SCSS/_patterns.scss */
+.btn-primary:hover {
+  background-color: lightgrey;
+}
+
+/* line 177, ../SCSS/_patterns.scss */
+.map {
+  height: 270px;
+}
+/* line 180, ../SCSS/_patterns.scss */
+.map iframe {
+  background-color: transparent;
+  border: medium none;
+  height: inherit;
+  overflow: hidden;
+  width: 100%;
+}
