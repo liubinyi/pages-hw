@@ -1,0 +1,6 @@
+// Mixin for common background color and text color
+@mixin contentbox-style($bgcolor, $color) {
+    background-color: $bgcolor;
+    color: $color;
+    position: relative; // Reference point for absolutely positioning child element
+}
