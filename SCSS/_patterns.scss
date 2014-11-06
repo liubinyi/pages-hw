@@ -5,6 +5,9 @@
 .footer-top {
 	background-color: $darkGray;
 	color: $white;
+    padding-bottom: 87px;
+    padding-top:104px;
+    margin-top:20px;
 	
 	h2 {
 		color: $turquoise;
@@ -13,6 +16,8 @@
 
 .footer-bottom {
 	background-color: $black;
+    padding-top: 17px;
+    padding-bottom:76px;
 }
 
 .message {
@@ -29,15 +34,17 @@
 
 .contentbox {
     @include contentbox-style (transparent, $gray);
-    
+    margin-bottom:103px;
     h2 {
-        margin-bottom: measure;
+        margin-bottom: 23px;
+        text-align: left;
     }
     p {
-        margin-bottom: measure;    
+        margin-bottom: 15px;    
     }
     a, .fa {
         color: $turquoise;
+        margin-bottom: 80px;
     }
 }
 
@@ -59,15 +66,27 @@
 	}
 }
 
+@media (max-width: 992px) {
+	.vertical-middle {
+		left: 20%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.vertical-middle {
+		left: 20%;
+	}
+}
 .message {
   @include contentbox-style($turquoise, $white);
-  padding-bottom: measure;        
-  padding-bottom: measure;
+  padding-top:50px;        
+  padding-bottom:95px ;
 }
 
 .image-break {
     background: #fff url(../images/paper-texture.jpg) repeat-x;
-    height: measure;
+    height: 38px;
+    margin-bottom: 70px;
 }
 
 .titlebox {
@@ -103,11 +122,10 @@
 }
 
 // Services page    
-.pricing-table {
+.price-list {
   border: 1px solid $lightGray;
   border-bottom: 7px solid $lightGray;
   margin-bottom: -10px;    
-  margin-bottom: 40px;
     
     li {
         color: $black;
@@ -186,6 +204,54 @@
   }
 }
 
+.project {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  a {
+    @include contentbox-style($turquoise, $white);
+	text-align: center;
+    text-transform: uppercase;
+	font-weight: bold;
+    opacity: 0;
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: -200px;
+    right: 0;
+    z-index: 100;
+	display: table-cell;
+	vertical-align: middle;
+  }
+  a:hover {
+    bottom: 0;
+    opacity: .9;
+    transition: opacity 0.3s ease-in-out 0s, bottom 0.4s cubic-bezier(0.25,0.5,0,1) 0s;
+  }
+}
 
+.project-title {
+	display: table;
+	width: 100%;
+	height: 90%;
+	span {
+      vertical-align: middle;
+      display: table-cell;
+	}
+}
 
+.price-plan:hover {
+  -moz-box-shadow: 0 0 20px $gray;
+  -webkit-box-shadow: 0 0 20px $gray;
+  box-shadow: 0 0 20px $gray;
+}
+.price-plan:hover .titlebox {
+  background-color: $black;
+  &:after {
+    border-color: $black transparent;
+  }
+}
+.space {
+    margin-bottom: 50px;
+}
 

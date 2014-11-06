@@ -1,4 +1,4 @@
-angular.module('breakroom', ['ngRoute'])
+angular.module('breakroom', ['ngRoute','ngAnimate'])
 	.config(breakroomRouter);
 function breakroomRouter($routeProvider) {
 	$routeProvider
