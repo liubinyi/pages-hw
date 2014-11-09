@@ -50,59 +50,67 @@ a:hover, a:focus {
 .footer-top {
   background-color: lightgrey;
   color: white;
+  padding-bottom: 87px;
+  padding-top: 104px;
+  margin-top: 20px;
 }
-/* line 9, ../SCSS/_patterns.scss */
+/* line 12, ../SCSS/_patterns.scss */
 .footer-top h2 {
   color: #84ccd3;
 }
 
-/* line 14, ../SCSS/_patterns.scss */
+/* line 17, ../SCSS/_patterns.scss */
 .footer-bottom {
   background-color: black;
+  padding-top: 17px;
+  padding-bottom: 76px;
 }
 
-/* line 18, ../SCSS/_patterns.scss */
+/* line 23, ../SCSS/_patterns.scss */
 .message {
   background: #84ccd3;
 }
-/* line 20, ../SCSS/_patterns.scss */
+/* line 25, ../SCSS/_patterns.scss */
 .message h2 {
   color: white;
 }
 
-/* line 25, ../SCSS/_patterns.scss */
+/* line 30, ../SCSS/_patterns.scss */
 .lead {
   color: #84ccd3;
   text-transform: capitalize;
 }
 
-/* line 30, ../SCSS/_patterns.scss */
+/* line 35, ../SCSS/_patterns.scss */
 .contentbox {
   background-color: transparent;
   color: gray;
   position: relative;
+  margin-bottom: 103px;
 }
-/* line 33, ../SCSS/_patterns.scss */
+/* line 38, ../SCSS/_patterns.scss */
 .contentbox h2 {
-  margin-bottom: measure;
+  margin-bottom: 23px;
+  text-align: left;
 }
-/* line 36, ../SCSS/_patterns.scss */
+/* line 42, ../SCSS/_patterns.scss */
 .contentbox p {
-  margin-bottom: measure;
+  margin-bottom: 15px;
 }
-/* line 39, ../SCSS/_patterns.scss */
+/* line 45, ../SCSS/_patterns.scss */
 .contentbox a, .contentbox .fa {
   color: #84ccd3;
+  margin-bottom: 80px;
 }
 
-/* line 44, ../SCSS/_patterns.scss */
+/* line 51, ../SCSS/_patterns.scss */
 .contentbox-var1 {
   border-bottom: 5px solid #cfebee;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-/* line 50, ../SCSS/_patterns.scss */
+/* line 57, ../SCSS/_patterns.scss */
 .vertical-middle {
   position: absolute;
   left: 50%;
@@ -110,39 +118,52 @@ a:hover, a:focus {
 }
 
 @media (max-width: 768px) {
-  /* line 57, ../SCSS/_patterns.scss */
+  /* line 64, ../SCSS/_patterns.scss */
   .vertical-middle {
     position: static;
   }
 }
-/* line 62, ../SCSS/_patterns.scss */
+@media (max-width: 992px) {
+  /* line 70, ../SCSS/_patterns.scss */
+  .vertical-middle {
+    left: 20%;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 76, ../SCSS/_patterns.scss */
+  .vertical-middle {
+    left: 20%;
+  }
+}
+/* line 80, ../SCSS/_patterns.scss */
 .message {
   background-color: #84ccd3;
   color: white;
   position: relative;
-  padding-bottom: measure;
-  padding-bottom: measure;
+  padding-top: 50px;
+  padding-bottom: 95px;
 }
 
-/* line 68, ../SCSS/_patterns.scss */
+/* line 86, ../SCSS/_patterns.scss */
 .image-break {
   background: white url(../images/paper-texture.jpg) repeat-x;
-  height: measure;
+  height: 38px;
+  margin-bottom: 70px;
 }
 
-/* line 73, ../SCSS/_patterns.scss */
+/* line 92, ../SCSS/_patterns.scss */
 .titlebox {
   background-color: #84ccd3;
   color: white;
   position: relative;
   padding: 10px;
 }
-/* line 76, ../SCSS/_patterns.scss */
+/* line 95, ../SCSS/_patterns.scss */
 .titlebox em {
   color: black;
 }
 
-/* line 82, ../SCSS/_patterns.scss */
+/* line 101, ../SCSS/_patterns.scss */
 .titlebox:after {
   content: "";
   position: absolute;
@@ -156,46 +177,45 @@ a:hover, a:focus {
   z-index: 1;
 }
 
-/* line 95, ../SCSS/_patterns.scss */
+/* line 114, ../SCSS/_patterns.scss */
 .clients {
   padding-top: 59px;
   padding-bottom: 135px;
 }
 
-/* line 100, ../SCSS/_patterns.scss */
+/* line 119, ../SCSS/_patterns.scss */
 .breadcrumb {
   margin-top: 60px;
   margin-bottom: 36px;
 }
 
-/* line 106, ../SCSS/_patterns.scss */
-.pricing-table {
+/* line 125, ../SCSS/_patterns.scss */
+.price-list {
   border: 1px solid #666666;
   border-bottom: 7px solid #666666;
   margin-bottom: -10px;
-  margin-bottom: 40px;
 }
-/* line 112, ../SCSS/_patterns.scss */
-.pricing-table li {
+/* line 130, ../SCSS/_patterns.scss */
+.price-list li {
   color: black;
   padding: 20px;
   border-bottom: 1px dotted #666666;
   font-weight: bold;
 }
-/* line 119, ../SCSS/_patterns.scss */
-.pricing-table .price {
+/* line 137, ../SCSS/_patterns.scss */
+.price-list .price {
   font-size: 26px;
   border-bottom: 1px dotted #666666;
   margin-top: 0;
 }
-/* line 125, ../SCSS/_patterns.scss */
-.pricing-table .info {
+/* line 143, ../SCSS/_patterns.scss */
+.price-list .info {
   font-weight: normal;
   font-size: 13px;
   color: gray;
 }
 
-/* line 132, ../SCSS/_patterns.scss */
+/* line 150, ../SCSS/_patterns.scss */
 .btn-price {
   background-color: #84ccd3;
   color: white;
@@ -203,59 +223,333 @@ a:hover, a:focus {
   border-bottom: 5px solid #3fa7b2;
 }
 
-/* line 137, ../SCSS/_patterns.scss */
+/* line 155, ../SCSS/_patterns.scss */
 .article-date {
   background-color: black;
   color: #84ccd3;
   position: relative;
   padding: 10px;
 }
-/* line 141, ../SCSS/_patterns.scss */
+/* line 159, ../SCSS/_patterns.scss */
 .article-date h2 {
   font-size: 19px;
   margin: 0;
 }
-/* line 146, ../SCSS/_patterns.scss */
+/* line 164, ../SCSS/_patterns.scss */
 .article-date h3 {
   color: white;
   margin: 0;
 }
 
-/* line 153, ../SCSS/_patterns.scss */
+/* line 171, ../SCSS/_patterns.scss */
 .sidebar-links li {
   padding: 5px 0 5px 0;
 }
-/* line 156, ../SCSS/_patterns.scss */
+/* line 174, ../SCSS/_patterns.scss */
 .sidebar-links a {
   color: #84ccd3;
   text-decoration: none;
 }
 
-/* line 163, ../SCSS/_patterns.scss */
+/* line 181, ../SCSS/_patterns.scss */
 .form-control {
   background-color: #666666;
   margin-bottom: 10px;
 }
 
-/* line 169, ../SCSS/_patterns.scss */
+/* line 187, ../SCSS/_patterns.scss */
 .btn-primary {
   background-color: black;
   border-color: black;
 }
-/* line 172, ../SCSS/_patterns.scss */
+/* line 190, ../SCSS/_patterns.scss */
 .btn-primary:hover {
   background-color: lightgrey;
 }
 
-/* line 177, ../SCSS/_patterns.scss */
+/* line 195, ../SCSS/_patterns.scss */
 .map {
   height: 270px;
 }
-/* line 180, ../SCSS/_patterns.scss */
+/* line 198, ../SCSS/_patterns.scss */
 .map iframe {
   background-color: transparent;
   border: medium none;
   height: inherit;
   overflow: hidden;
   width: 100%;
+}
+
+/* line 207, ../SCSS/_patterns.scss */
+.project {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 211, ../SCSS/_patterns.scss */
+.project a {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -200px;
+  right: 0;
+  z-index: 100;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 226, ../SCSS/_patterns.scss */
+.project a:hover {
+  bottom: 0;
+  opacity: .9;
+  transition: opacity 0.3s ease-in-out 0s, bottom 0.4s cubic-bezier(0.25, 0.5, 0, 1) 0s;
+}
+
+/* line 233, ../SCSS/_patterns.scss */
+.project-title {
+  display: table;
+  width: 100%;
+  height: 90%;
+}
+/* line 237, ../SCSS/_patterns.scss */
+.project-title span {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/* line 243, ../SCSS/_patterns.scss */
+.price-plan:hover {
+  -moz-box-shadow: 0 0 20px gray;
+  -webkit-box-shadow: 0 0 20px gray;
+  box-shadow: 0 0 20px gray;
+}
+
+/* line 248, ../SCSS/_patterns.scss */
+.price-plan:hover .titlebox {
+  background-color: black;
+}
+/* line 250, ../SCSS/_patterns.scss */
+.price-plan:hover .titlebox:after {
+  border-color: black transparent;
+}
+
+/* line 254, ../SCSS/_patterns.scss */
+.space {
+  margin-bottom: 50px;
+}
+
+/* line 1, ../SCSS/_progress-bar.scss */
+.progress-bar {
+  background-color: white;
+  float: none;
+}
+
+/* line 6, ../SCSS/_progress-bar.scss */
+.progress {
+  background-color: whitesmoke;
+  border-radius: 0 0 0 0;
+  box-shadow: 0 1px 2px transparent inset;
+  height: 50px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  margin-top: 12px;
+}
+
+/* line 18, ../SCSS/_progress-bar.scss */
+.progress .bar {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  float: left;
+  font-size: 12px;
+  height: 100%;
+  text-align: center;
+  transition: width 0.6s ease 0s;
+  width: 0;
+  position: relative;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 32, ../SCSS/_progress-bar.scss */
+.progress .bar:after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: -8px;
+  border-style: solid;
+  border-width: 8px 0 8px 8px;
+  border-color: transparent #84ccd3;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
+
+/* line 45, ../SCSS/_progress-bar.scss */
+.progress .field {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 44px;
+  position: absolute;
+  left: 20px;
+  z-index: 100;
+}
+
+/* line 56, ../SCSS/_progress-bar.scss */
+.progress .field-value {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 44px;
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  z-index: 100;
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+/* line 71, ../SCSS/_progress-bar.scss */
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+/* Animated Progress Bar onload */
+/* line 85, ../SCSS/_progress-bar.scss */
+.bar-one {
+  width: 100%;
+  -moz-animation: bar-one 1.0s ease-out;
+  -webkit-animation: bar-one 1.0s ease-out;
+}
+
+/* line 91, ../SCSS/_progress-bar.scss */
+.bar-two {
+  width: 100%;
+  -moz-animation: bar-two 1.7s ease-out;
+  -webkit-animation: bar-two 1.7s ease-out;
+}
+
+/* line 97, ../SCSS/_progress-bar.scss */
+.bar-three {
+  width: 100%;
+  -moz-animation: bar-three 2.3s ease-out;
+  -webkit-animation: bar-three 2.3s ease-out;
+}
+
+@-webkit-keyframes bar-one {
+  /* line 104, ../SCSS/_progress-bar.scss */
+  0% {
+    width: 0%;
+  }
+
+  /* line 105, ../SCSS/_progress-bar.scss */
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes bar-two {
+  /* line 109, ../SCSS/_progress-bar.scss */
+  0% {
+    width: 0%;
+  }
+
+  /* line 110, ../SCSS/_progress-bar.scss */
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes bar-three {
+  /* line 114, ../SCSS/_progress-bar.scss */
+  0% {
+    width: 0%;
+  }
+
+  /* line 115, ../SCSS/_progress-bar.scss */
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 119, ../SCSS/_progress-bar.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 120, ../SCSS/_progress-bar.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  /* line 124, ../SCSS/_progress-bar.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 125, ../SCSS/_progress-bar.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 129, ../SCSS/_progress-bar.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 130, ../SCSS/_progress-bar.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 1, ../SCSS/_ngview.scss */
+.ng-enter {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  transition: 1s linear all;
+  opacity: 0;
+}
+
+/* line 9, ../SCSS/_ngview.scss */
+.ng-enter-active,
+.ng-leave {
+  opacity: 1;
+}
+
+/* line 13, ../SCSS/_ngview.scss */
+.ng-leave {
+  opacity: 1;
+}
+
+/* line 17, ../SCSS/_ngview.scss */
+.ng-leave-active {
+  opacity: 0;
 }
