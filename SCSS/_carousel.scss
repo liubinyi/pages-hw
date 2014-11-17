@@ -1,0 +1,33 @@
+.carousel-control {
+	padding-top: 2px;
+	text-shadow: none;
+	height: 40px;
+	width: 40px;
+	border: 3px solid $white;
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+	opacity: 0.5;
+}
+ 
+.carousel-caption {
+	text-align: left;
+}
+ 
+.carousel-caption h1 > span {
+	background-color: $black;
+	color: $white;
+	padding: 10px;
+}
+ 
+.carousel-caption h2 > span {
+	text-shadow: none;
+	font-style: italic;
+	padding: 5px 10px;
+	background-color: $white;
+	font-size: 24px;
+	display: inline-block;
+}

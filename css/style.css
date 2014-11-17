@@ -14,10 +14,9 @@ h1 {
   font-size: 3.6em;
   font-weight: 100;
   color: white;
-  background-color: black;
 }
 
-/* line 17, ../SCSS/_typography.scss */
+/* line 16, ../SCSS/_typography.scss */
 h2 {
   font-family: "Lato", sans-serif;
   font-size: 2.13333em;
@@ -25,18 +24,18 @@ h2 {
   color: lightgrey;
 }
 
-/* line 24, ../SCSS/_typography.scss */
+/* line 23, ../SCSS/_typography.scss */
 h3 {
   font-family: "Lato", sans-serif;
   font-size: 1.46667em;
   color: gray;
 }
 
-/* line 29, ../SCSS/_typography.scss */
+/* line 28, ../SCSS/_typography.scss */
 a {
   color: inherit;
 }
-/* line 32, ../SCSS/_typography.scss */
+/* line 31, ../SCSS/_typography.scss */
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -179,43 +178,42 @@ a:hover, a:focus {
 
 /* line 114, ../SCSS/_patterns.scss */
 .clients {
-  padding-top: 59px;
   padding-bottom: 135px;
 }
 
-/* line 119, ../SCSS/_patterns.scss */
+/* line 118, ../SCSS/_patterns.scss */
 .breadcrumb {
   margin-top: 60px;
   margin-bottom: 36px;
 }
 
-/* line 125, ../SCSS/_patterns.scss */
+/* line 124, ../SCSS/_patterns.scss */
 .price-list {
   border: 1px solid #666666;
   border-bottom: 7px solid #666666;
   margin-bottom: -10px;
 }
-/* line 130, ../SCSS/_patterns.scss */
+/* line 129, ../SCSS/_patterns.scss */
 .price-list li {
   color: black;
   padding: 20px;
   border-bottom: 1px dotted #666666;
   font-weight: bold;
 }
-/* line 137, ../SCSS/_patterns.scss */
+/* line 136, ../SCSS/_patterns.scss */
 .price-list .price {
   font-size: 26px;
   border-bottom: 1px dotted #666666;
   margin-top: 0;
 }
-/* line 143, ../SCSS/_patterns.scss */
+/* line 142, ../SCSS/_patterns.scss */
 .price-list .info {
   font-weight: normal;
   font-size: 13px;
   color: gray;
 }
 
-/* line 150, ../SCSS/_patterns.scss */
+/* line 149, ../SCSS/_patterns.scss */
 .btn-price {
   background-color: #84ccd3;
   color: white;
@@ -223,55 +221,55 @@ a:hover, a:focus {
   border-bottom: 5px solid #3fa7b2;
 }
 
-/* line 155, ../SCSS/_patterns.scss */
+/* line 154, ../SCSS/_patterns.scss */
 .article-date {
   background-color: black;
   color: #84ccd3;
   position: relative;
   padding: 10px;
 }
-/* line 159, ../SCSS/_patterns.scss */
+/* line 158, ../SCSS/_patterns.scss */
 .article-date h2 {
   font-size: 19px;
   margin: 0;
 }
-/* line 164, ../SCSS/_patterns.scss */
+/* line 163, ../SCSS/_patterns.scss */
 .article-date h3 {
   color: white;
   margin: 0;
 }
 
-/* line 171, ../SCSS/_patterns.scss */
+/* line 170, ../SCSS/_patterns.scss */
 .sidebar-links li {
   padding: 5px 0 5px 0;
 }
-/* line 174, ../SCSS/_patterns.scss */
+/* line 173, ../SCSS/_patterns.scss */
 .sidebar-links a {
   color: #84ccd3;
   text-decoration: none;
 }
 
-/* line 181, ../SCSS/_patterns.scss */
+/* line 180, ../SCSS/_patterns.scss */
 .form-control {
   background-color: #666666;
   margin-bottom: 10px;
 }
 
-/* line 187, ../SCSS/_patterns.scss */
+/* line 186, ../SCSS/_patterns.scss */
 .btn-primary {
   background-color: black;
   border-color: black;
 }
-/* line 190, ../SCSS/_patterns.scss */
+/* line 189, ../SCSS/_patterns.scss */
 .btn-primary:hover {
   background-color: lightgrey;
 }
 
-/* line 195, ../SCSS/_patterns.scss */
+/* line 194, ../SCSS/_patterns.scss */
 .map {
   height: 270px;
 }
-/* line 198, ../SCSS/_patterns.scss */
+/* line 197, ../SCSS/_patterns.scss */
 .map iframe {
   background-color: transparent;
   border: medium none;
@@ -280,13 +278,13 @@ a:hover, a:focus {
   width: 100%;
 }
 
-/* line 207, ../SCSS/_patterns.scss */
+/* line 206, ../SCSS/_patterns.scss */
 .project {
   overflow: hidden;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 211, ../SCSS/_patterns.scss */
+/* line 210, ../SCSS/_patterns.scss */
 .project a {
   background-color: #84ccd3;
   color: white;
@@ -304,42 +302,42 @@ a:hover, a:focus {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 226, ../SCSS/_patterns.scss */
+/* line 225, ../SCSS/_patterns.scss */
 .project a:hover {
   bottom: 0;
   opacity: .9;
   transition: opacity 0.3s ease-in-out 0s, bottom 0.4s cubic-bezier(0.25, 0.5, 0, 1) 0s;
 }
 
-/* line 233, ../SCSS/_patterns.scss */
+/* line 232, ../SCSS/_patterns.scss */
 .project-title {
   display: table;
   width: 100%;
   height: 90%;
 }
-/* line 237, ../SCSS/_patterns.scss */
+/* line 236, ../SCSS/_patterns.scss */
 .project-title span {
   vertical-align: middle;
   display: table-cell;
 }
 
-/* line 243, ../SCSS/_patterns.scss */
+/* line 242, ../SCSS/_patterns.scss */
 .price-plan:hover {
   -moz-box-shadow: 0 0 20px gray;
   -webkit-box-shadow: 0 0 20px gray;
   box-shadow: 0 0 20px gray;
 }
 
-/* line 248, ../SCSS/_patterns.scss */
+/* line 247, ../SCSS/_patterns.scss */
 .price-plan:hover .titlebox {
   background-color: black;
 }
-/* line 250, ../SCSS/_patterns.scss */
+/* line 249, ../SCSS/_patterns.scss */
 .price-plan:hover .titlebox:after {
   border-color: black transparent;
 }
 
-/* line 254, ../SCSS/_patterns.scss */
+/* line 253, ../SCSS/_patterns.scss */
 .space {
   margin-bottom: 50px;
 }
@@ -552,4 +550,118 @@ a:hover, a:focus {
 /* line 17, ../SCSS/_ngview.scss */
 .ng-leave-active {
   opacity: 0;
+}
+
+/* line 1, ../SCSS/_navigation.scss */
+.navbar-default {
+  background-color: black;
+  border: 0 none;
+}
+
+/* line 6, ../SCSS/_navigation.scss */
+.navbar {
+  min-height: 95px;
+}
+
+/* line 10, ../SCSS/_navigation.scss */
+.navbar-nav {
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+/* line 15, ../SCSS/_navigation.scss */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+/* line 17, ../SCSS/_navigation.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #84ccd3;
+}
+
+/* line 22, ../SCSS/_navigation.scss */
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: #84ccd3;
+}
+/* line 26, ../SCSS/_navigation.scss */
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #84ccd3;
+}
+
+/* line 32, ../SCSS/_navigation.scss */
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+}
+
+/* line 36, ../SCSS/_navigation.scss */
+.navbar-default .navbar-toggle {
+  border-color: white;
+  background-color: black;
+}
+/* line 40, ../SCSS/_navigation.scss */
+.navbar-default .navbar-toggle:hover {
+  border-color: #84ccd3;
+  background-color: transparent;
+}
+/* line 44, ../SCSS/_navigation.scss */
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+/* line 49, ../SCSS/_navigation.scss */
+.navbar-default .navbar-nav > li > a.btn-signup {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  padding: 5px 15px;
+  margin-top: 10px;
+  max-width: 100px;
+}
+/* line 55, ../SCSS/_navigation.scss */
+.navbar-default .navbar-nav > li > a.btn-signup:hover, .navbar-default .navbar-nav > li > a.btn-signup:focus {
+  background-color: #5ebcc6;
+}
+
+/* line 60, ../SCSS/_navigation.scss */
+body {
+  padding-top: 95px;
+}
+
+/* line 1, ../SCSS/_carousel.scss */
+.carousel-control {
+  padding-top: 2px;
+  text-shadow: none;
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+/* line 16, ../SCSS/_carousel.scss */
+.carousel-caption {
+  text-align: left;
+}
+
+/* line 20, ../SCSS/_carousel.scss */
+.carousel-caption h1 > span {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* line 26, ../SCSS/_carousel.scss */
+.carousel-caption h2 > span {
+  text-shadow: none;
+  font-style: italic;
+  padding: 5px 10px;
+  background-color: white;
+  font-size: 24px;
+  display: inline-block;
 }

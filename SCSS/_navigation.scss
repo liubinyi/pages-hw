@@ -1,0 +1,62 @@
+.navbar-default {
+  background-color: $black;
+  border: 0 none;
+}
+ 
+.navbar {
+    min-height: 95px;
+}
+ 
+.navbar-nav {
+	text-transform: uppercase;
+    padding-top: 20px;
+}
+ 
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	&:hover {
+		color: $turquoise;
+	}
+}
+ 
+.navbar-default .navbar-nav > .active > a {
+	background-color: transparent;
+	color: $turquoise;
+	
+	&:hover {
+		background-color: transparent;
+		color: $turquoise;
+	}
+}
+ 
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+}
+ 
+.navbar-default .navbar-toggle {
+	border-color: $white;
+	background-color: $black;
+	
+	&:hover {
+		border-color: $turquoise;
+		background-color: transparent;
+	}
+	&:focus {
+		background-color: transparent;
+	}
+}
+ 
+.navbar-default .navbar-nav > li > a.btn-signup {
+    @include contentbox-style($turquoise, $white);
+	padding: 5px 15px;
+	margin-top: 10px;
+	max-width: 100px;
+    &:hover,
+	&:focus {
+		background-color: darken($turquoise, 10%);
+	}
+}
+
+body {
+	padding-top: 95px; //same value as the min-height set for .navbar 
+}
